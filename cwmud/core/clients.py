@@ -98,7 +98,7 @@ class Client:
                 data = message["data"]
                 self._commands.append(data)
                 message = self._messages.get_message()
-            if message:
+            if message:  ### TODO: is this actually working somehow? shouldn't this always be false?
                 self._last_command_time = now()
 
     def send(self, data, strip_formatting=False):
