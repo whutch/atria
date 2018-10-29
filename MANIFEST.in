@@ -1,5 +1,4 @@
 include LICENSE.txt
-include cwmud/libs/miniboa.LICENSE.TXT
 include requirements.txt
 include Makefile
 

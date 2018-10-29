@@ -1,5 +1,0 @@
-bcrypt==2.0.0
-noise==1.2.2
-pylru==1.0.9
-redis==2.10.3
-websockets==3.2
